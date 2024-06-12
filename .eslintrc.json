@@ -1,0 +1,30 @@
+{
+  "extends": [
+    // Add other ESLint configurations you're using before prettier
+    "prettier",
+    "prettier/react",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "bracketSpacing": true, // Print spaces between brackets in object literals
+        "jsxBracketSameLine": false, // Put the > of a multi-line JSX element at the end of the last line instead of being alone on the next line (does not apply to self closing elements)
+        "jsxSingleQuote": false, // Use single quotes instead of double quotes in JSX
+        "printWidth": 100, // Specify the line length that the printer will wrap on
+        "semi": true, // Print semicolons at the ends of statements
+        "singleQuote": true, // Use single quotes instead of double quotes
+        "tabWidth": 2, // Specify the number of spaces per indentation-level
+        "trailingComma": "all", // Trailing commas wherever possible (including function arguments)
+        "useTabs": false, // Indent lines with tabs instead of spaces
+        "endOfLine": "auto" // Maintain existing line endings (mixed values within one file are normalised by looking at what's used after the first line)
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./SFProText/SFProText-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 300;
+    font-style: italic;
+    src: url('./SFProText/SFProText-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./SFProText/SFProText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 400;
+    font-style: italic;
+    src: url('./SFProText/SFProText-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./SFProText/SFProText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    font-style: italic;
+    src: url('./SFProText/SFProText-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./SFProText/SFProText-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-style: italic;
+    src: url('./SFProText/SFProText-SemiboldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./SFProText/SFProText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 700;
+    font-style: italic;
+    src: url('./SFProText/SFProText-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 800;
+    font-style: normal;
+    src: url('./SFProText/SFProText-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    font-weight: 800;
+    font-style: italic;
+    src: url('./SFProText/SFProText-HeavyItalic.ttf') format('truetype');
+}
+

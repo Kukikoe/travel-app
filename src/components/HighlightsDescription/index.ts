@@ -1,0 +1,1 @@
+export { HighlightsDescription } from './HighlightsDescription';

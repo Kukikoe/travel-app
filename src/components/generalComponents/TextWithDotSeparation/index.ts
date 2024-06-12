@@ -1,0 +1,1 @@
+export { TextWithDotSeparation } from './TextWithDotSeparation';
