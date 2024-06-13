@@ -12,17 +12,17 @@ import {
 
 import { PhotoWrapper } from './PhotoWrapper';
 import { Photo } from './Photo';
+import { BoxWrapper } from './BoxWrapper';
 
 export const PhotoGallery: React.FC = () => {
   const images = [waterfallImg, riverImg, housesImg, iceCaveImg];
 
   return (
-    <Box
+    <BoxWrapper
       display="flex"
       gap="4px"
       borderRadius={16}
       alignItems="center"
-      height={292}
       sx={{ position: 'relative' }}
     >
       <Box display="flex" height="100%" width="50%">
@@ -47,6 +47,6 @@ export const PhotoGallery: React.FC = () => {
       >
         All photos
       </Button>
-    </Box>
+    </BoxWrapper>
   );
 };

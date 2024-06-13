@@ -35,7 +35,7 @@ export const Route: React.FC = () => {
             <Select options={arrival} selectedOption={arrival[0]} />
           </Box>
         </Box>
-        <Box sx={{ minWidth: '100px', width: '20%' }}>
+        <Box sx={{ minWidth: '100px', width: '24%' }}>
           <Select
             options={['Jul 03 – Jul 11']}
             selectedOption="Jul 03 – Jul 11"
