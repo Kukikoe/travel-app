@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "description": "",
+  "homepage": "https://kukikoe.github.io/travel-app",
   "main": "index.tsx",
   "scripts": {
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "build": "webpack --config webpack.config.js --mode production"
   },
   "dependencies": {
     "@mui/icons-material": "^5.15.19",
