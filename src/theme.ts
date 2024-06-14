@@ -1,6 +1,6 @@
 import { createTheme, ThemeOptions } from '@mui/material/styles';
 
-import '../public/fonts/font.css';
+import '../docs/fonts/font.css';
 
 declare module '@mui/material/Button' {
   interface ButtonPropsVariantOverrides {

@@ -1,4 +1,4 @@
-import '../public/fonts/font.css';
+import '../docs/fonts/font.css';
 
 import { createGlobalStyle } from 'styled-components';
 
